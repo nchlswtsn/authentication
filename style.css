@@ -1,0 +1,46 @@
+body {
+  background: black;
+  color: silver;
+  text-align: center;
+}
+h1 {
+  margin: 100px;
+}
+.buttons {
+  background: white;
+  height: 10em;
+  padding: 2.5em;
+}
+.buttons {
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.buttons:active {
+  background: silver;
+  border: 5px solid white;
+}
+.col-md-12 {
+  margin-top: 100px;
+}
+#footer {
+  bottom: 0;
+}
+.loginButton {
+  border-radius: 10px;
+  padding: .5em;
+  margin: 10px 50px 0px 50px;
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+.loginButton:active {
+  background: silver;
+  border: 2px solid white;  
+}
+.false {
+  color: red;
+}
+.true {
+  color: green;
+}
